@@ -110,24 +110,13 @@
   <ItemGroup>
     <Content Include="Assets\Samples\1.jpg" />
     <Content Include="Assets\Samples\10.jpg" />
-    <Content Include="Assets\Samples\11.jpg" />
-    <Content Include="Assets\Samples\12.jpg" />
-    <Content Include="Assets\Samples\13.jpg" />
-    <Content Include="Assets\Samples\14.jpg" />
-    <Content Include="Assets\Samples\15.jpg" />
-    <Content Include="Assets\Samples\16.jpg" />
-    <Content Include="Assets\Samples\17.jpg" />
-    <Content Include="Assets\Samples\18.jpg" />
-    <Content Include="Assets\Samples\19.jpg" />
     <Content Include="Assets\Samples\2.jpg" />
-    <Content Include="Assets\Samples\20.jpg" />
     <Content Include="Assets\Samples\3.jpg" />
     <Content Include="Assets\Samples\4.jpg" />
     <Content Include="Assets\Samples\5.jpg" />
     <Content Include="Assets\Samples\6.jpg" />
     <Content Include="Assets\Samples\7.jpg" />
     <Content Include="Assets\Samples\8.jpg" />
-    <Content Include="Assets\Samples\9.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -160,6 +149,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.UI.Xaml">
       <Version>2.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.Console">
+      <Version>4.3.1</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
